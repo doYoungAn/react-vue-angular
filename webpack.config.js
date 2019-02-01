@@ -4,9 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        'polyfills': './src/polyfills.js',
+        'zone': './src/angular/zone.ts',
+        'react-root': './src/react/main.js',
         'vue-root': './src/vue/main.js',
-        'angular-root': './src/angular/main.ts',
+        'angular-root': './src/angular/main.ts'
     },
     module: {
         rules: [
@@ -25,6 +26,10 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: 'html-loader'
+            },
+            {
+                test: /\.(js|jsx)$/,
+                loader: 'babel-loader'
             }
         ]
     },
