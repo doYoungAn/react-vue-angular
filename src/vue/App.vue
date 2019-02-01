@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        뷰입니다.
     </div>
 </template>
 
