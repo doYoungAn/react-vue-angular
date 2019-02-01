@@ -4,8 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
+        'polyfills': './src/polyfills.js',
         'vue-root': './src/vue/main.js',
-        'angular-root': './src/angular/main.ts'
+        'angular-root': './src/angular/main.ts',
     },
     module: {
         rules: [
