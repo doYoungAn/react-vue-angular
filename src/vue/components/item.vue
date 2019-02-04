@@ -1,16 +1,21 @@
 <template>
-    <div>
-        <div>{{ item.title }}</div>
-        <div>{{ item.content }}</div>
+    <div class="item-wrapper card">
+        <div class="bg-img-wrapper">
+            <img class="bg-img" :src="item.image" alt="" />
+        </div>
+        <div class="content">
+            <div class="item-title">{{ item.title }}</div>
+            <div class="item-content">{{ item.content }}</div>
+            <br>
+            <div>{{ item.owner.name }}</div>
+            <div>{{ item.owner.email }}</div>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['item'],
-    mounted() {
-        console.log('자식', this);
-    }
+    props: ['item']
 }
 </script>
 

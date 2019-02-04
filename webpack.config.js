@@ -49,6 +49,11 @@ module.exports = {
                 from: 'static',
                 to: 'static',
                 toType: 'dir'
+            },
+            {
+                from: 'css',
+                to: 'css',
+                toType: 'dir'
             }
         ])
     ]
