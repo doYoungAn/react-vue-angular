@@ -1,0 +1,38 @@
+[
+    {
+        "title": "SPA에 대해서 알아봅니다.",
+        "content": "index.html 하나의 html을 가지고 있습니다.",
+        "owner": {
+            "name": "Do Young",
+            "email": "doyoung@gmail.com"
+        },
+        "image": "/static/img/spa.jpg"
+    },
+    {
+        "title": "React에 대해서 알아봅니다.",
+        "content": "페이스북이 만들었으면 현재 가장 많이 쓰이고 유명한 SPA입니다.",
+        "owner": {
+            "name": "Do Young",
+            "email": "doyoung@gmail.com"
+        },
+        "image": "/static/img/react.png"
+    },
+    {
+        "title": "Vue에 대해서 알아봅니다.",
+        "content": "에반 유가 만든 SPA이며 앵귤러와 리액트의 장점을 흡수했습니다.",
+        "owner": {
+            "name": "Do Young",
+            "email": "doyoung@gmail.com"
+        },
+        "image": "/static/img/vue.png"
+    },
+    {
+        "title": "Angular에 대해서 알아봅니다.",
+        "content": "구글이 만들었으면 기본적으로 타입스크립트를 지원합니다.",
+        "owner": {
+            "name": "Do Young",
+            "email": "doyoung@gmail.com"
+        },
+        "image": "/static/img/angular.jpeg"
+    }
+]
